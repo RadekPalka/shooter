@@ -1,0 +1,48 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: sans-serif;
+}
+.score{
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  color: white;
+  margin: 5px;
+  user-select: none;
+}
+div{
+  width: 400px;
+  height: 200px;
+  position: absolute;
+  background-color: white;
+  /* display: none;   */
+}
+div>p{
+  text-align: center;
+  margin: 5px 0 0 0;
+}
+#score{
+  margin-top: 30px;
+  font-size: larger;
+  font-weight: 800;
+}
+button{
+  display: block;
+  margin: 30px auto;
+  width: 50%;
+  height: 30px;
+  background-color: rgb(34, 105, 159);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  transition: color .5s;
+}
+button:hover{
+  color: black;
+  cursor: pointer;
+}
